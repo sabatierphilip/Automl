@@ -1,6 +1,6 @@
-# AutoML (Pure Python) — AST-Native Manifold Search Engine
+# AutoML
 
-This repository is a **from-scratch Python AutoML prototype** .
+
 
 - A **visible 3-phase design flow**:
   1. Tokenizer Design
@@ -9,7 +9,7 @@ This repository is a **from-scratch Python AutoML prototype** .
 - A **complete mathematical operator sample space** (arithmetic, comparison, unary, and greatest/least integer functions).
 - **AST synthesis + execution** to generate tokenizer/model/training functions at runtime.
 - An **n-dimensional manifold model** with invariant tracking and automatic dimensional expansion from 2D upward.
-- A **Riemann anti-entropic search** with primitive-zero handling and Runge amplification near zeros, then stabilized via bounded integral transforms.
+- A **Riemann search** with primitive-zero handling and Runge amplification near zeros, then stabilized via bounded integral transforms.
 
 ---
 

@@ -1,6 +1,6 @@
 # AutoML (Pure Python) — AST-Native Manifold Search Engine
 
-This repository is a **from-scratch Python AutoML prototype** inspired by your requested direction (not Google AutoML’s evolutionary loop). It uses:
+This repository is a **from-scratch Python AutoML prototype** .
 
 - A **visible 3-phase design flow**:
   1. Tokenizer Design
@@ -9,7 +9,7 @@ This repository is a **from-scratch Python AutoML prototype** inspired by your r
 - A **complete mathematical operator sample space** (arithmetic, comparison, unary, and greatest/least integer functions).
 - **AST synthesis + execution** to generate tokenizer/model/training functions at runtime.
 - An **n-dimensional manifold model** with invariant tracking and automatic dimensional expansion from 2D upward.
-- A **Riemann-style anti-entropic search** with primitive-zero handling and Runge-style amplification near zeros, then stabilized via bounded integral transforms.
+- A **Riemann anti-entropic search** with primitive-zero handling and Runge amplification near zeros, then stabilized via bounded integral transforms.
 
 ---
 
@@ -83,7 +83,7 @@ For each sample point on manifold:
 
 ## Real Series Training Run
 
-Dataset used: a real monthly atmospheric CO₂ segment (Mauna Loa style numeric sequence) embedded in code.
+Dataset used: a  monthly atmospheric CO₂ segment .
 
 ### Run command
 ```bash
@@ -98,17 +98,7 @@ python run_experiment.py
 - Center norm invariant: `2.3667`
 - Positive definite metric: `True`
 
----
 
-## Graphs (generated at runtime)
-
-Binary image artifacts are intentionally **not committed** to this repository (to keep diffs/text-only tooling compatible).
-
-After running `python run_experiment.py`, you will get:
-- `results/loss_curve.png`
-- `results/prediction_curve.png`
-
----
 
 ## Project Layout
 
@@ -124,7 +114,7 @@ run_experiment.py
 tests/
   conftest.py
   test_pipeline.py
-results/  # generated locally (gitignored)
+results/  
 README.md
 ```
 
@@ -137,6 +127,5 @@ python run_experiment.py
 pytest -q
 ```
 
-Expected:
-- JSON metrics output from experiment.
-- Passing tests for operator coverage, AST execution, and end-to-end experiment.
+
+

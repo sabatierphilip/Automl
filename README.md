@@ -23,7 +23,7 @@ Files:
 - `automl/tokenizer.py`
 - `automl/ast_factory.py`
 
-## Phase 2 — Model Design (Visible)
+## Phase 2 — Model Design 
 - A symbolic expression is represented as a nested operator tree.
 - The tree is compiled into a real Python callable through AST.
 - The manifold model initializes in 2 dimensions and can expand to `n` dimensions as needed.
@@ -32,7 +32,7 @@ Files:
 - `automl/ast_factory.py`
 - `automl/manifold_model.py`
 
-## Phase 3 — Output Design (Visible)
+## Phase 3 — Output Design 
 - Training history and predictions are exported to plots.
 - Structured metrics + manifold invariants are returned for reporting.
 
@@ -56,7 +56,7 @@ Implemented in `automl/operators.py` and surfaced during experiment output.
 
 ---
 
-## Anti-Entropic Manifold Algorithm (Implemented)
+## Anti-Entropic Manifold Algorithm 
 
 For each sample point on manifold:
 
@@ -81,7 +81,7 @@ For each sample point on manifold:
 
 ---
 
-## Real Series Training Run
+##  Training Run
 
 Dataset used: a  monthly atmospheric CO₂ segment .
 
